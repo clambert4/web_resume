@@ -1,0 +1,161 @@
+.home {
+    background-image: url(../images/lego_res.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.dev {
+    color: snow;
+    text-align: center;
+    padding-top: 11%;
+    letter-spacing: 3px;
+}
+.dev h1{
+    font-size: 42px;
+}
+.dev h2 {
+    font-size: 24px;
+}
+button {
+    background-color: transparent; /* Dark grey */
+    border: 2px solid snow;
+    color: snow;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    letter-spacing: 3px;
+}
+button span {
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+button span:after {
+  position: absolute;
+ background-color: transparent;    
+  opacity: 0;
+     transition: 0.5s;
+  top: 0;
+}
+
+button:hover span {
+  color: black;
+}
+button:hover {
+    background-color: snow;
+}
+
+button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+.header li{
+    color: snow;
+    display: inline-block;
+    float: right;
+    margin-right: 50px;
+    font-size: 11px;
+    letter-spacing: 3px;
+    padding-top: 15px;
+}
+.header button {
+    padding: 8px 24px;
+    text-align: center;
+    font-size: 11px;
+    letter-spacing: 3px;
+    
+}
+.header a {
+    text-decoration: none;
+    color: snow;
+}
+#no_but1, #no_but2, #no_but3{
+    padding-top: 30px;
+}
+#logo{
+    float:left;
+    text-align: center;
+    font-size: 14px;
+}
+.contact {
+ background-image: url(../images/GGB.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.contact_me {
+    text-align: center;
+    color: snow;
+    padding-top: 14%;
+}
+.contact_form {
+    float: left;
+    width: 30%;
+    padding-right: 5%;
+    margin-left: 10%;
+    color: #353535;
+}
+.name {
+    margin-top: .5px;
+    padding-left: 4px;
+    font-size: 12px;
+}
+.message {
+    margin-bottom: .5px;
+    padding-left: 4px;
+    font-size: 12px;
+}
+input {
+    font-size: 20px;
+}
+textarea {
+    margin-top: 0px;
+}
+.sub {
+    float:right;
+}
+.r_col {
+    color: #353535;
+    margin-right: 15%;
+    padding-top: 2%;
+    padding-left: 20%;
+
+}
+.r_col, .contact_form {
+    letter-spacing: 2px;
+}
+.ban_image {
+ background-image: url(../images/cs_banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.error {
+    color: red;
+}
+.success {
+    text-align: center;
+}
+.dev1 {
+    color: snow;
+    text-align: center;
+    padding-top: 10%;
+    letter-spacing: 3px;
+}
+
+.about_content {
+    color: #222222;
+     background-color: snow;
+    text-align: center;
+    letter-spacing: 3px;
+    padding-top: 10px;
+    margin-right: 13%;
+    margin-left: 13%;
+    line-height: 25px;
+}
+#about_img {
+    padding: 10px;
+}
