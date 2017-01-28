@@ -6,9 +6,11 @@
   <title>Chris Lambert</title>
     
   <link href="css/stylesheet.css"  type="text/css" rel="stylesheet" />
+
 </head>
 <body class="home">
     <?php include 'header.html';
+          include 'count_vistor.php'
     ?>
   <div class='dev'>
     <h1>DEVELOPER.</h1>
